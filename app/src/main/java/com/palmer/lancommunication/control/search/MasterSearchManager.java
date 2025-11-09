@@ -14,11 +14,6 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Copyright 2017 SpeakIn.Inc
- * Created by west on 2017/9/27.
- */
-
 public class MasterSearchManager implements DeviceBroadcastReceiver.BroadcastReceiverCallback {
 
     private static final String TAG = "MasterSearchManager";

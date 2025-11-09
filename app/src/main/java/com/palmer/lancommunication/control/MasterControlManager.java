@@ -13,11 +13,6 @@ import org.json.JSONObject;
 
 import java.util.List;
 
-/**
- * Copyright 2017 SpeakIn.Inc
- * Created by west on 2017/10/9.
- */
-
 public class MasterControlManager implements MasterSearchManager.MasterSearchManagerCallback, MasterWebSocketManager.MasterSocketManagerCallback{
 
     public interface MasterControlManagerCallback {

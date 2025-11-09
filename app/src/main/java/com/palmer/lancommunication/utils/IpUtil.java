@@ -13,10 +13,6 @@ import java.net.NetworkInterface;
 import java.net.SocketException;
 import java.util.Enumeration;
 
-/**
- * Copyright 2017 SpeakIn.Inc
- * Created by west on 2017/9/27.
- */
 
 public class IpUtil {
 

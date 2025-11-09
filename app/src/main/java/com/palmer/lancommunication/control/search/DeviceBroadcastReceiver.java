@@ -12,10 +12,6 @@ import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.util.Arrays;
 
-/**
- * Copyright 2017 SpeakIn.Inc
- * Created by west on 2017/9/26.
- */
 
 public class DeviceBroadcastReceiver {
 

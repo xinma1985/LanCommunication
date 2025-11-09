@@ -5,7 +5,7 @@ import android.net.DhcpInfo;
 import android.net.wifi.WifiManager;
 
 
-import com.palmer.lancommunication.RecorderApp;
+import com.palmer.lancommunication.LanCommunicationApp;
 import com.palmer.lancommunication.control.ControlConstants;
 import com.palmer.lancommunication.utils.IpUtil;
 
@@ -15,17 +15,10 @@ import java.net.DatagramSocket;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
-/**
- * Copyright 2017 SpeakIn.Inc
- * Created by west on 2017/9/26.
- */
 
 public class DeviceBroadcastSender {
 
     private static final String BROADCAST_IP = "255.255.255.255";
-//    private static final String MSG_TO_SEND = "{\"from\":\"speakin\",\"type\":\"slave\",\"port\":9001}";
-//    private static final String MSG_TO_SEND2 = "{\"from\":\"speakin\",\"type\":\"master\"},\"port\":9002";
-
 
     private int port = 0;
     private boolean isSlave = true;
@@ -44,7 +37,7 @@ public class DeviceBroadcastSender {
     private void sendBroadcast(String message) throws IOException {
 
         String ipAddr = BROADCAST_IP;
-        if (IpUtil.isWifiApEnabled(RecorderApp.app)) {
+        if (IpUtil.isWifiApEnabled(LanCommunicationApp.app)) {
             System.out.println("已开启热点");
             ipAddr = "192.168.43.255";
         }

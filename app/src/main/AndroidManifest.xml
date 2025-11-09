@@ -14,7 +14,7 @@
         android:icon="@mipmap/communication_lan"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/communication_lan"
-        android:name=".RecorderApp"
+        android:name=".LanCommunicationApp"
         android:supportsRtl="true"
         android:theme="@style/Theme.LanCommunication">
         <activity

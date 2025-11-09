@@ -17,10 +17,6 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-/**
- * Copyright 2017 SpeakIn.Inc
- * Created by west on 2017/9/29.
- */
 
 public class SlaveWebSocketManager {
 

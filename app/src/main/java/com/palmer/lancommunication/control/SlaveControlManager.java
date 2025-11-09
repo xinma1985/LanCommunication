@@ -10,11 +10,6 @@ import com.palmer.lancommunication.control.websocket.SlaveWebSocketManager;
 
 import org.json.JSONObject;
 
-/**
- * Copyright 2017 SpeakIn.Inc
- * Created by west on 2017/10/9.
- */
-
 public class SlaveControlManager implements SlaveSearchManager.SlaveSearchManagerCallback, SlaveWebSocketManager.SlaveSocketManagerCallback{
     private static final String TAG = SlaveControlManager.class.getSimpleName();
 

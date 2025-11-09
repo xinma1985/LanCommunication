@@ -7,11 +7,6 @@ import android.util.Log;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/**
- * Copyright 2017 SpeakIn.Inc
- * Created by west on 2017/9/27.
- */
-
 public class SlaveSearchManager implements DeviceBroadcastReceiver.BroadcastReceiverCallback{
 
     private static final String TAG = "SlaveSearchManager";

@@ -2,10 +2,6 @@ package com.palmer.lancommunication.control;
 
 import android.os.Environment;
 
-/**
- * Copyright 2017 SpeakIn.Inc
- * Created by west on 2017/10/17.
- */
 
 public class ControlConstants {
 
